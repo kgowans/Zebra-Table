@@ -1,0 +1,63 @@
+table {
+    width: 80%;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+tr:hover td {
+    background-color: magenta;
+}
+
+tr:nth-child( odd ){ 
+  background-color: hsl(0, 100%, 80%); 
+}
+
+tr:nth-child( even ){ 
+  background-color: hsl(0, 80%, 40%); 
+}
+
+.datasystem{
+    background-color: cornsilk;
+}
+
+.cross {
+    background-color: aquamarine;
+}
+
+.python {
+    background-color: violet;
+}
+
+.math {
+    background-color: yellow;
+}
+
+.math2 {
+    background-color: yellow;
+}
+
+.success {
+    background-color: aqua;
+}
+
+.js {
+    background-color: coral;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse
+}
+
+th {
+    background-color: #eee;
+}
+
+th, tr {
+    height: 50px;
+}
+
+h1 {
+    text-align: center
+}
